@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');
+
+body {
+    background-repeat: no-repeat;
+    background: radial-gradient(circle farthest-corner at 100px 50px, #FBF2EB, #352A3B);
+    background-repeat: no-repeat;
+    color:white;
+    font-family: 'Varela Round', sans-serif;
+}
+
+header {
+    height: 160px;
+    width: 98vw;
+    background-image: url('pattern2.jpg');
+    background-attachment:fixed;
+    background-position:top;
+    margin-top: 1px;
+    border-radius: 15px;
+}
+
+h1 {
+    text-align:center;
+}
+
+.buttonsh {
+    display:flex;
+    margin-left:33%;
+    margin-top:50px;
+}
+
+.buth1:hover {
+   color:beige;
+   transform: scale(1.1);
+   border: solid beige 2px;
+}
+
+.buth2:hover {
+   color:beige;
+   transform: scale(1.1);
+   border: solid beige 2px;
+}
+
+.buth3:hover {
+   color:beige;
+   transform: scale(1.1);
+   border: solid beige 2px;
+}
+
+.buth4:hover {
+   color:beige;
+   transform: scale(1.1);
+   border: solid beige 2px;
+}
+
+.buth5:hover {
+   color:beige;
+   transform: scale(1.1);
+   border: solid beige 2px;
+}
+
+.buth1 {
+    margin-right: 50px;
+    border: solid white 2px;
+    border-radius:20px ;
+    padding:5px;
+    box-sizing: border-box;
+    font-size:20px;
+    transition-duration: 0.5s;
+}
+
+.buth2 {
+    margin-right: 50px;
+    border: solid white 2px;
+    border-radius:20px ;
+    padding:5px;
+    box-sizing: border-box;
+    font-size:20px;
+    transition-duration: 0.5s;
+}
+
+.buth3 {
+    margin-right: 50px;
+    border: solid white 2px;
+    border-radius:20px ;
+    padding:5px;
+    box-sizing: border-box;
+    font-size:20px;
+    transition-duration: 0.5s;
+}
+
+.buth4 {
+    margin-right: 50px;
+    border: solid white 2px;
+    border-radius:20px ;
+    padding:5px;
+    box-sizing: border-box;
+    font-size:20px;
+    transition-duration: 0.5s;
+}
+
+.buth5 {
+    margin-right: 50px;
+    border: solid white 2px;
+    border-radius:20px ;
+    padding:5px;
+    box-sizing: border-box;
+    font-size:20px;
+    transition-duration: 0.5s;
+}
+
+.places12 {
+    display:flex;
+    margin-top:30px;
+    margin-left:18%;
+}
+
+.places34 {
+    display:flex;
+    margin-top:30px;
+    margin-left:18%;
+}
+
+.pic1 {
+    background-image: url('Dolls.jpg');
+    height: 500px;
+    width: 500px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border:solid 5px white;
+    border-radius:10%;
+    transition-duration: 0.5s;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.pic2 {
+    background-image: url('stones.jpg');
+    height: 500px;
+    width: 500px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left:100px;
+    border:solid 5px white;
+    border-radius:10%;
+    transition-duration: 0.5s;
+}
+
+.pic1:hover {
+   transform: scale(0.99);
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.pic2:hover {
+   transform: scale(0.99);
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.butp1 {
+    margin:auto;
+    margin-top:10px;
+    border: solid white 2px;
+    border-radius:20px ;
+    padding:5px;
+    height: 40px;
+    width:150px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size:20px;
+    transition-duration: 0.5s;
+}
+
+.butp1:hover {
+   color:beige;
+   transform: scale(1.1);
+   border: solid beige 2px;
+}
+
+.butp2 {
+    margin-left:43%;
+    margin-top:10px;
+    border: solid white 2px;
+    border-radius:20px ;
+    padding:5px;
+    height: 40px;
+    width:180px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size:20px;
+    transition-duration: 0.5s;
+}
+
+.butp2:hover {
+   color:beige;
+   transform: scale(1.1);
+   border: solid beige 2px;
+}
+
+.pic3 {
+    background-image: url('%D0%94%D0%BE%D1%80%D0%BE%D0%B3%D0%B0_%D0%B3%D0%B8%D0%B3%D0%B0%D0%BD%D1%82%D0%BE%D0%B2.png');
+    height: 500px;
+    width: 500px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border:solid 5px white;
+    border-radius:10%;
+    transition-duration: 0.5s;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.pic4 {
+    background-image: url('champ.jpg');
+    height: 500px;
+    width: 500px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left:100px;
+    border:solid 5px white;
+    border-radius:10%;
+    transition-duration: 0.5s;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.pic3:hover {
+   transform: scale(0.99);
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.pic4:hover {
+   transform: scale(0.99);
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.butp3 {
+    margin:auto;
+    margin-top:10px;
+    border: solid white 2px;
+    border-radius:20px ;
+    padding:5px;
+    height: 40px;
+    width:180px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size:20px;
+    transition-duration: 0.5s;
+}
+
+.butp3:hover {
+   color:beige;
+   transform: scale(1.1);
+   border: solid beige 2px;
+}
+
+.butp4 {
+    margin-left:43%;
+    margin-top:10px;
+    border: solid white 2px;
+    border-radius:20px ;
+    padding:5px;
+    height: 40px;
+    width:180px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size:20px;
+    transition-duration: 0.5s;
+}
+
+.butp4:hover {
+   color:beige;
+   transform: scale(1.1);
+   border: solid beige 2px;
+}
+
+
+.facebook {
+   height: 70px;
+   width: 70px;
+   background-image: url("facebook.png");
+   -webkit-background-size: cover;
+   background-size: cover;
+   background-position: center; 
+    margin-right:150px;
+    transition-duration: 0.5s;
+}
+
+.facebook:hover {
+   box-shadow: 0 0 10px white; 
+}
+
+.youtube:hover {
+   box-shadow: 0 0 10px white; 
+}
+
+.snapchat:hover {
+   box-shadow: 0 0 10px white; 
+}
+
+.whatsapp:hover {
+   box-shadow: 0 0 10px white; 
+}
+
+.whatsapp {
+   height: 70px;
+   width: 70px;
+   background-image: url("whatsapp.png");
+   -webkit-background-size: cover;
+   background-size: cover;
+   background-position: center;
+    margin-right:150px;
+    transition-duration: 0.5s;
+}
+
+.youtube {
+   height: 70px;
+   width: 70px;
+   background-image: url("youtube.png");
+   -webkit-background-size: cover;
+   background-size: cover;
+   background-position: center;
+    margin-right:150px;
+    transition-duration: 0.5s;
+}
+
+.snapchat {
+   height: 70px;
+   width: 70px;
+   background-image: url("snapchat.png");
+   -webkit-background-size: cover;
+   background-size: cover;
+   background-position: center; 
+    margin-right:150px;
+    transition-duration: 0.5s;
+}
+
+footer {
+    height: 160px;
+    width: 98vw;
+    background-image: url('pattern2.jpg');
+    background-attachment:fixed;
+    background-position:bottom;
+    margin-top: 100px;
+    border-radius: 15px;
+}
+
+.foot {
+    text-align: center;
+    display: flex;
+   justify-content: center;
+    padding-top:40px;
+}
+
+.black {
+    background-image: url('black2.png');
+    height: 394px;
+    width: 300px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position:absolute;
+    top:30px;
+    left: 20px;
+}
+
+.hpic {
+   
+    -webkit-background-size: contain;
+    background-size: contain;
+    height: 400px;
+    width: 100%;
+    background-attachment: fixed;
+}
